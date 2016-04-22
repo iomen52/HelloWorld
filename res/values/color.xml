@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="RED">#000000</color>
+    <color name="blue">#ff87cefa</color>
+    <color name="transparent_background">#ffffffff</color>
+    <color name="windowsbackground">#ffffffff</color>
+    <color name="on_text">#FFFFFF</color><!-- 开启时文字颜色 -->
+    <color name="off_text">#5B5B5B</color><!-- 关闭时文字颜色 -->
+    
+    
+    <!-- 扫描结束时扫描框周围的颜色 -->
+    <color name="result_view">#b0000000</color>
+    <!-- 扫描时扫描框周围的颜色 -->
+    <color name="viewfinder_mask">#60000000</color>
+    <!-- 扫描时小黄点的颜色 -->
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="title_color">#6BC600</color>
+    
+    <color name="setting_background">#E6E6E6</color>
+</resources>

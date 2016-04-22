@@ -1,0 +1,233 @@
+<resources>
+
+    <string name="app_name">Z9</string>
+	<string name="login_username">IMEI</string>
+	<string name="login_password">PassWord</string>
+	<string name="login_save_password">Remember the password</string>
+	<string name="login_auto_login">Automatic login</string>
+	<string name="login_button_string">Login</string>
+	<string name="login_button_register">Version 2015.7.02 1058</string>
+	<string name="login_button_send">User is landing…</string>
+	<string name="login_button_passworderror">User name or password is wrong.</string>
+	<string name="login_button_fail">Login fails, please try again.</string>
+	<string name="login_button_passwordempty">User name or password is empty, please import it again!</string>
+	
+	<string name="main_imagebutton_tracking">Locating</string>
+	<string name="main_imagebutton_history">History</string>
+	<string name="main_imagebutton_electronic">Fence</string>
+	<string name="main_imagebutton_command">Setting</string>
+	
+	<string name="main_imagebutton_message">Call</string>
+	<string name="main_imagebutton_navi">Recording</string>
+	<string name="main_imagebutton_alarm">Anti-theft</string>
+	<string name="main_imagebutton_voice">Voice</string>
+	<string name="main_imagebutton_offlinemap">Off-line map</string>
+	
+	<string name="guard_button_guardopen">Activate anti-theft function</string>
+	<string name="guard_activity_title">Anti-theft setting</string>
+	
+	<string name="record_activity_title">Recording setting</string>
+	<string name="record_activity_text">Recording status:</string>
+	
+	<string name="voice_activity_title">Voice setting</string>
+	<string name="voice_activity_button">Play voice</string>
+	
+	<string name="setting_activity_title">Settings</string>
+	
+	<string name="dialog_phone_title">Settings</string>
+	<string name="dialog_password_title">Password setting</string>
+	<string name="dialog_password_titleone">New:</string>
+	<string name="dialog_password_original">Original:</string>
+	<string name="dialog_password_titletwo">Confirm:</string>
+	<string name="dialog_phone_ok">OK</string>
+	<string name="dialog_phone_cancel">Cancel</string>
+	
+	<string name="current_state_online">Succeed to connect to anti-theft device.</string>
+	<string name="current_state_signal">Signal:</string>
+	<string name="current_state_battery"> Battery:</string>
+	<string name="current_state_charging">Charging:</string>
+	<string name="current_state_pah">%</string>
+	<string name="current_state_noonline">Anti-theft device is off-line, please click to make the connection again.</string>
+	<string name="current_state_connecting">It is connecting to anti-theft device...</string>
+	<string name="current_state_nointernet">No network is available now.</string>
+	<string name="current_state_switchinternet">Network of smart phone is switching…</string>
+	
+	<string name="gps_activity_update">Second(s) to refresh</string>
+	<string name="gps_activity_postion">Location:</string>
+	
+	<string name="all_activity_send">Sending command…</string>
+	<string name="all_activity_failsend">Current network is unstable, sending command fails.</string>
+		
+	<string name="guard_activity_openguard">Anti-theft function has been enabled in the device.</string>
+	<string name="guard_activity_closeguard">Anti-theft function has been shutdown in the device.</string>
+	<string name="guard_activity_failopenguard">Fail to enable anti-theft function.</string>
+	<string name="guard_activity_failcloseguard">Fail to disabled anti-theft function.</string>
+	
+	<string name="record_activity_open">Recording function has been enabled</string>
+	<string name="record_activity_close">Recording function has been shutdown</string>
+	<string name="record_activity_failopen">Fail to enabled recording function.</string>
+	<string name="record_activity_failclose">Fail to disabled recording function.</string>
+	<string name="record_activity_recording">The device is recording now.</string>
+	<string name="record_activity_nosdcard">Recording function fails, no SD card.</string>
+	
+	<string name="voice_activity_paly">The device starts to play voice.</string>
+	
+	<string name="phone_dialog_errorphone">Please import your phone number exactly.</string>
+	<string name="phone_dialog_phoneone">Family number 1 has been bound.</string>
+	<string name="phone_dialog_phonetwo">Family number 2 has been bound.</string>
+	<string name="phone_dialog_phonemtk">The number of anti-theft device has been set successfully.</string>
+	<string name="phone_dialog_phoneandroid">The number of local device has been set successfully.</string>
+	
+	<string name="phone_dialog_stateone">Family number 1:</string>
+	<string name="phone_dialog_statetwo">Family number 2:</string>
+	<string name="phone_dialog_statethree">Anti-theft device number:</string>
+	<string name="phone_dialog_statefour">Local device number:</string>
+	
+	<string name="password_dialog_true">Password change succeeds, please login again.</string>
+	<string name="password_dialog_edittext"></string>
+	
+	<string name="scan_title">QR code scan</string>
+    <string name="scan_label">Scan the QR code</string>
+    <string name="scan_prompt_label">Focus the QR Code frame while scanning</string>
+    <string name="scan_failed_prompt">QR code scanning fails.</string>
+    
+    <string name="geofence_activity_create_fence">Succeed to build an electronic fence.</string>
+    <string name="geofence_activity_delete_fence">Succeed to delete the electronic fence.</string>
+    <string name="geofence_activity_noset_fence">No electronic fence.</string>
+    <string name="geofence_activity_haveset_fence">Electronic fence has been set to</string>
+    <string name="geofence_area">Electronic fence area.</string>
+    
+    <string name="gpsloction_geofence_haveset">(Has Fence)</string>
+    <string name="gpsloction_geofence_noset">(No Fence.)</string>
+    <string name="history_activity_comparator_time">Starting time cannot be later than ending time.</string>
+    <string name="history_activity_no_data">The selected date has not data information.</string>
+    
+    <string name="login_activity_phone_model">Your smart phone is Xiaomi phone with trademark MI?</string>
+    <string name="login_activity_make_sure">Verify your smart phone’s model number</string>
+    <string name="login_activity_miui">MI smart phone</string>
+    <string name="login_activity_other">Other trademark’s smart phone</string>
+    <string name="login_activity_repeat_login">The current account number is being landed in another APP!</string>
+    
+    <string name="main_activity_noset_mtkphone">First, please set the phone number of anti-theft device.</string>
+    <string name="main_activity_battery_saving">Standby mode for saving power</string>
+    <string name="main_activity_standby_dialog">Whether order Z9 enter standby mode (long-time standby status)?</string>
+    <string name="main_activity_work_dialog">Whether order Z9 enter working mode?</string>
+    <string name="main_activity_work_title">Activate working mode</string>
+    <string name="main_activity_work_on">Working mode is starting…</string>
+    <string name="main_activity_high">High</string>
+    <string name="main_activity_middle">Middle</string>
+    <string name="main_activity_low">Low</string>
+    <string name="main_activity_standby_mode">The device enters standby mode.</string>
+    <string name="main_activity_standby_fail">The device fails to enter standby mode, it will send a command to request standby by SMS</string>
+    
+    <string name="main_activity_gprs_hint">If the current network connection is by GPRS, please download it by WIFI.</string>
+    <string name="main_activity_nonetwork">If the current network connection is off, the map cannot be downloaded.</string>
+    <string name="main_activity_down">Make sure you want to download the map of</string>
+    <string name="main_activity_offline_down">city?</string>
+    <string name="main_activity_offline">Download off-line Map.</string>
+    <string name="main_activity_down_complete">Complete to download off-line map. </string>
+    
+    <string name="setting_activity_miui">Smart phone’s brand (MI)</string>
+    <string name="setting_activity_other">Smart phone’s brand (Other trademark)</string>
+    <string name="setting_activity_logout_success">Logout succeeded.</string>
+    <string name="setting_activity_logout_fail">Logout failed.</string>
+    <string name="setting_activity_logout_is">Whether you want to log off?</string>
+    <string name="setting_activity_logout">Log off</string>
+    <string name="setting_activity_shutdown">Make sure you want to turn it off?</string>
+    <string name="setting_activity_hint">Hint</string>
+    <string name="setting_activity_notallowed_voice">Under the condition of recording status, do not play any voice.</string>
+    
+    <string name="network_state_open_network">From being without network connection to being with it.</string>
+    <string name="network_state_close_network">From being with network connection to being without it.</string>
+    <string name="network_state_gprs_wifi">Shift GPRS to WIFI</string>
+    <string name="network_state_wifi_gprs">Shift WIFI to GPRS</string>
+    
+    <string name="crash_handler_software_exception">Sorry! Error appears. Programs exit soon.</string>
+    
+    <string name="custom_dialog_heart_limit">Heartbeat rate must be in the range of 3bpm ~20bpm(beat per minute).</string>
+    <string name="custom_dialog_heart_set">Heartbeat rate setting is succeeded.</string>
+    <string name="custom_dialog_oneway_audio">Completing setup of local device number, you need restart Z9 to activate one-way conversation function. Restart Z9 now?</string>
+    <string name="custom_dialog_reset">Restart Z9.</string>
+    <string name="custom_dialog_reset_now">Restart now.</string>
+    <string name="custom_dialog_reset_manual">No, restart manually.</string>
+    <string name="custom_dialog_heart_setting">Heartbeat rate setting</string>
+    
+    <string name="password_dialog_newpsd_null">New password cannot be empty.</string>
+    <string name="password_dialog_psd_imparity">The two input passwords disaccord.</string>
+    <string name="password_dialog_psd_len">Please import 6-16 characters, combination of English letter(s) and numeral figure(s).</string>
+    <string name="password_dialog_oldpsd_null">Original password cannot be empty.</string>
+    <string name="password_dialog_oldnew_imparity">Original password cannot be the same with new password.</string>
+    <string name="password_dialog_oldpsd_error">Original password is false, please import it again.</string>
+    
+    <string name="popup_dialog_guard_alarm">Please pay attention to check the location of anti-theft device. And it is necessary to do monitoring task and responding alarm bells.</string>
+    <string name="popup_dialog_know">I know</string>
+    <string name="popup_dialog_guard">Anti -theft device gives an alarm.</string>
+    
+    <string name="popup_dialog_geofence">The anti-theft device is going out of the electronic fence area, please deal with it timely.</string>
+    <string name="popup_dialog_geofence_alarm">Electronic fence alarms.</string>
+    
+    <string name="popup_dialog_offline">Connection between APP and the anti-theft device is broken, please check the network of them again, and retry to connect them.</string>
+    <string name="popup_dialog_offline_alarm">Disconnect the connection.</string>
+    
+    <string name="popup_dialog_z9">The Anti-theft Device</string>
+    <string name="popup_dialog_into_app">Click to use it.</string>
+    
+    <string name="update_element_renewable">Update</string>
+    <string name="update_element_update">Update</string>
+    <string name="update_element_newest">The latest</string>
+    <string name="update_element_continue">Continue</string>
+    <string name="update_element_start">Start</string>
+    
+    <string name="add_device_layout_adddevice">Add a new device</string>
+    <string name="add_device_layout_nick">Nickname</string>
+    <string name="add_device_layout_imei">IMEI:</string>
+    <string name="add_device_layout_password">Password:</string>
+    
+    <string name="geofence_layout_radius">The radius is 100 meters</string>
+    
+    <string name="history_layout_today">Today</string>
+    <string name="history_layout_yesterday">Yesterday</string>
+    <string name="history_layout_custom">Self-definition</string>
+    <string name="history_layout_gpsdata">GPS data</string>
+    <string name="history_layout_lbsdata">LBS data</string>
+    <string name="history_layout_select">Search</string>
+    
+    <string name="main_layout_standby">Standby</string>
+    
+    <string name="string_radius">Radius</string>
+    <string name="string_metre">Meter</string>
+    <string name="string_kilometre">kilometer</string>
+    
+    <string-array name="sensitivity">
+        <item>High sensitivity</item>
+        <item>Middle sensitivity</item>
+        <item>Low sensitivity</item>
+   </string-array>
+      
+    <string-array name="voicearray">
+        <item>Alarm bells</item>
+        <item>Baby, it’s home time.</item>
+        <item>Baby, it’s time to get up.</item>
+        <item>Baby, where are you ?</item>
+        <item>Dad, it’s home time.</item>
+        <item>Ma, it’s home time.</item>
+   </string-array>
+    
+    <string name="setting_layout_family_one">Family number 1 setting</string>
+    <string name="setting_layout_family_two">Family number 2 setting</string>
+    <string name="setting_layout_mtk_phone">Set the number of Anti-theft device</string>
+    <string name="setting_layout_client_phone">Set the number of the local device</string>
+    <string name="setting_layout_heartbeat_frequency">Heartbeat rate setting</string>
+    <string name="setting_layout_change_password">Change Password</string>
+    <string name="setting_layout_Logout">LogOff</string>
+    <string name="setting_layout_remote_shutdown">Remote Power off</string>
+    <string name="moredevice_layout_connect_device">Device connection</string>
+    <string name="moredevice_layout_add_device">Add a new device</string>
+    
+    <string name="offlinemap_layout_down_city">The Downloaded maps of cities</string>
+    <string name="offlinemap_layout_delete">Delete</string>
+    <string name="offlinemap_layout_start">Start</string>
+    
+    <string name="offlinemap_layout_city_list">City list</string>
+    <string name="offlinemap_layout_down_manage">Management</string>
+</resources>

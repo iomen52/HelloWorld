@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip">
+
+        <Button
+            android:id="@+id/ConnectButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60.0dip"
+            android:text="@string/moredevice_layout_connect_device" />
+
+        <Button
+            android:id="@+id/AddButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="60.0dip"
+            android:text="@string/moredevice_layout_add_device"/>
+    </RelativeLayout>
+    
+    
+    <LinearLayout
+        android:id="@+id/citylist_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/DeviceList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:choiceMode="singleChoice"/>
+    </LinearLayout>
+</LinearLayout>

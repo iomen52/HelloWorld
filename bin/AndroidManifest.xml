@@ -1,0 +1,193 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.guanjiangjun2"
+    android:versionCode="150702"
+    android:versionName="20150702 1058" >
+	
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    <!-- 扫描二维码权限 -->
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <!-- 扫描二维码权限 -->
+    <!-- 获取IMEI号码 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 获取IMEI号码 -->
+    <!-- 存储空间写权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 存储空间写权限 -->
+ 	
+ 	<!-- 短信读写权限 -->
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <!-- 短信读写权限 -->
+	 	
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INSTALL_DRM" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    
+    <!-- 电话广播权限 -->
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    
+    
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        android:debuggable="true"
+        android:name="com.guanjiangjun2.util.MyApplication">
+        
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="wUZ5SsWvO6q7EmPPqX0vvwoa" />
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2" >
+                </action>
+            </intent-filter>
+        </service>
+        
+        <activity
+            android:name="com.guanjiangjun2.activity.LogoActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.guanjiangjun2.activity.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.guanjiangjun2.activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.guanjiangjun2.activity.GpsLoctionActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.guanjiangjun2.activity.GuardActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.guanjiangjun2.activity.RecordActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.guanjiangjun2.activity.VoiceActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.guanjiangjun2.activity.SettingActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.guanjiangjun2.activity.GeofenceActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.guanjiangjun2.activity.HistoryActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.guanjiangjun2.activity.HistoryShowActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.scan.zxing.activity.CaptureActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.guanjiangjun2.activity.OfflineMapActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <receiver android:name="com.guanjiangjun2.receiver.HeartMessageReceiver" >
+		    <intent-filter>
+                <action android:name="com.example.guanjiangjun.HEART_BEAT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.guanjiangjun2.receiver.HandleMessageReceiver" >
+            <intent-filter android:priority="2147483647" >
+        		<action android:name="com.example.guanjiangjun.MTK_FALSE" />
+        		<action android:name="com.example.guanjiangjun.CONNECT_ERROR" /> 
+                <action android:name="com.example.guanjiangjun.GPS_ACTION" />
+                <action android:name="com.example.guanjiangjun.ALARM_ACTION" />
+                <action android:name="com.example.guanjiangjun.NOCARD_ACTION" />
+                <action android:name="com.example.guanjiangjun.DEVICE_OFFLINE" />
+                <action android:name="com.example.guanjiangjun.GEOFENCE_ACTION" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.guanjiangjun2.receiver.NetworkStateReceiver" >
+		    <intent-filter>
+                
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" /> 
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.guanjiangjun2.receiver.HistoryCleanReceiver" >
+		    <intent-filter>
+                
+                <action android:name="com.example.guanjiangjun.HISTORY_CLEAN" /> 
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.guanjiangjun2.receiver.PhoneStateReceiver" >
+		    <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE"/>             
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" /> 
+            </intent-filter>
+        </receiver>
+        
+        <service
+            android:name="com.guanjiangjun2.service.BackgroundServer"
+            android:enabled="true" 
+            android:priority = "1000">
+        </service>
+    </application>
+
+</manifest>

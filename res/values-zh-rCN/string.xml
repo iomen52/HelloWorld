@@ -1,0 +1,233 @@
+<resources>
+
+    <string name="app_name">Z9</string>
+	<string name="login_username">IMEI</string>
+	<string name="login_password">密码</string>
+	<string name="login_save_password">记住密码</string>
+	<string name="login_auto_login">自动登陆</string>
+	<string name="login_button_string">登陆</string>
+	<string name="login_button_register">Version 2015.7.02 1058</string>
+	<string name="login_button_send">正在登陆....</string>
+	<string name="login_button_passworderror">用户名或密码错误</string>
+	<string name="login_button_fail">登陆失败,请重试</string>
+	<string name="login_button_passwordempty">用户名或密码不能为空，请重新输入！</string>
+	
+	<string name="main_imagebutton_tracking">实时定位</string>
+	<string name="main_imagebutton_history">历史轨迹</string>
+	<string name="main_imagebutton_electronic">电子围栏</string>
+	<string name="main_imagebutton_command">系统设置</string>
+	
+	<string name="main_imagebutton_message">单向通话</string>
+	<string name="main_imagebutton_navi">设备录音</string>
+	<string name="main_imagebutton_alarm">防盗功能</string>
+	<string name="main_imagebutton_voice">语音选择</string>
+	<string name="main_imagebutton_offlinemap">离线地图</string>
+	
+	<string name="guard_button_guardopen">开启防盗</string>
+	<string name="guard_activity_title">防盗设置</string>
+	
+	<string name="record_activity_title">录音设置</string>
+	<string name="record_activity_text">录音状态:</string>
+	
+	<string name="voice_activity_title">语音设置</string>
+	<string name="voice_activity_button">播放语音</string>
+	
+	<string name="setting_activity_title">设置</string>
+	
+	<string name="dialog_phone_title">设置</string>
+	<string name="dialog_password_title">密码设置</string>
+	<string name="dialog_password_titleone">新密码:</string>
+	<string name="dialog_password_original">初始密码:</string>
+	<string name="dialog_password_titletwo">确认密码:</string>
+	<string name="dialog_phone_ok">确定</string>
+	<string name="dialog_phone_cancel">取消</string>
+	
+	<string name="current_state_online">连接防盗器成功</string>
+	<string name="current_state_signal">信号强度:</string>
+	<string name="current_state_battery">当前电量:</string>
+	<string name="current_state_charging">电量(充电):</string>
+	<string name="current_state_pah">%</string>
+	<string name="current_state_noonline">防盗器不在线,点击重新连接</string>
+	<string name="current_state_connecting">正在连接防盗器....</string>
+	<string name="current_state_nointernet">正当前没有可用网络</string>
+	<string name="current_state_switchinternet">手机网络切换....</string>
+	
+	<string name="gps_activity_update">秒后刷新</string>
+	<string name="gps_activity_postion">Z9位置:</string>
+	
+	<string name="all_activity_send">发送命令....</string>
+	<string name="all_activity_failsend">当前网络不稳定,命令发送失败</string>
+		
+	<string name="guard_activity_openguard">设备已开启防盗</string>
+	<string name="guard_activity_closeguard">设备已关闭防盗</string>
+	<string name="guard_activity_failopenguard">开启防盗失败</string>
+	<string name="guard_activity_failcloseguard">关闭防盗失败</string>
+	
+	<string name="record_activity_open">设备已开启录音</string>
+	<string name="record_activity_close">设备已关闭录音</string>
+	<string name="record_activity_failopen">开启录音失败</string>
+	<string name="record_activity_failclose">关闭录音失败</string>
+	<string name="record_activity_recording">设备正在录音</string>
+	<string name="record_activity_nosdcard">录音失败,设备无SD卡！</string>
+	
+	<string name="voice_activity_paly">设备开始播放</string>
+	
+	<string name="phone_dialog_errorphone">请输入正确手机号！</string>
+	<string name="phone_dialog_phoneone">亲情号码1已绑定</string>
+	<string name="phone_dialog_phonetwo">亲情号码2已绑定</string>
+	<string name="phone_dialog_phonemtk">防盗器号码设置成功</string>
+	<string name="phone_dialog_phoneandroid">本机号码设置成功</string>
+	
+	<string name="phone_dialog_stateone">亲情号1:</string>
+	<string name="phone_dialog_statetwo">亲情号2:</string>
+	<string name="phone_dialog_statethree">防盗器号码:</string>
+	<string name="phone_dialog_statefour">本机号码:</string>
+	
+	<string name="password_dialog_true">修改密码成功,请重新登录</string>
+	<string name="password_dialog_edittext">6-16位数字、英文</string>
+	
+	<string name="scan_title">二维码扫描</string>
+    <string name="scan_label">扫描二维码</string>
+    <string name="scan_prompt_label">将二维码放入方框中即可扫描</string>
+    <string name="scan_failed_prompt">二维码扫描失败</string>
+    
+    <string name="geofence_activity_create_fence">创建围栏成功</string>
+    <string name="geofence_activity_delete_fence">删除围栏成功</string>
+    <string name="geofence_activity_noset_fence">暂未设置电子围栏</string>
+    <string name="geofence_activity_haveset_fence">已设置电子围栏,半径</string>
+    <string name="geofence_area">电子围栏区域</string>
+    
+    <string name="gpsloction_geofence_haveset">(已设置电子围栏)</string>
+    <string name="gpsloction_geofence_noset">(未设置电子围栏)</string>
+    <string name="history_activity_comparator_time">开始时间不能晚于结束时间</string>
+    <string name="history_activity_no_data">所选日期没有数据</string>
+    
+    <string name="login_activity_phone_model">您的手机品牌是否为小米?</string>
+    <string name="login_activity_make_sure">确定手机型号</string>
+    <string name="login_activity_miui">小米手机</string>
+    <string name="login_activity_other">其他品牌手机</string>
+    <string name="login_activity_repeat_login">该账号已在其他客户端登陆!</string>
+    
+    <string name="main_activity_noset_mtkphone">请先设置防盗器号码</string>
+    <string name="main_activity_battery_saving">省电待机模式</string>
+    <string name="main_activity_standby_dialog">是否命令Z9进入待机模式(超长待机)</string>
+    <string name="main_activity_work_dialog">是否命令Z9进入工作模式</string>
+    <string name="main_activity_work_title">开启工作模式</string>
+    <string name="main_activity_work_on">正在开启工作模式...</string>
+    <string name="main_activity_high">高</string>
+    <string name="main_activity_middle">中</string>
+    <string name="main_activity_low">低</string>
+    <string name="main_activity_standby_mode">设备进入待机模式</string>
+    <string name="main_activity_standby_fail">进入待机模式失败,将以短信方式发送待机命令</string>
+    
+    <string name="main_activity_gprs_hint">当前网络为GPRS连接,请在WIFI网络下进行下载</string>
+    <string name="main_activity_nonetwork">当前无网络,无法进行地图下载</string>
+    <string name="main_activity_down">确认要下载</string>
+    <string name="main_activity_offline_down">的离线地图么?</string>
+    <string name="main_activity_offline">离线地图下载</string>
+    <string name="main_activity_down_complete">离线地图下载完毕!</string>
+    
+    <string name="setting_activity_miui">手机品牌(小米手机)</string>
+    <string name="setting_activity_other">手机品牌(其他品牌)</string>
+    <string name="setting_activity_logout_success">注销登陆成功</string>
+    <string name="setting_activity_logout_fail">注销登陆失败</string>
+    <string name="setting_activity_logout_is">是否要注销登陆?</string>
+    <string name="setting_activity_logout">注销登陆</string>
+    <string name="setting_activity_shutdown">确认要关机么?</string>
+    <string name="setting_activity_hint">提示</string>
+    <string name="setting_activity_notallowed_voice">开启录音状态下不允许播放语音!</string>
+    
+    <string name="network_state_open_network">从没有网络变为有网络</string>
+    <string name="network_state_close_network">从有网络变为没有网络</string>
+    <string name="network_state_gprs_wifi">从GPRS变为WIFI</string>
+    <string name="network_state_wifi_gprs">从WIFI变为GPRS</string>
+    
+    <string name="crash_handler_software_exception">很抱歉,程序出现异常</string>
+    
+    <string name="custom_dialog_heart_limit">心跳频率必须在3 - 20秒之间</string>
+    <string name="custom_dialog_heart_set">心跳频率设置成功</string>
+    <string name="custom_dialog_oneway_audio">设置完本机号码后需要重启Z9才能启用单向通话功能，是否立即重启?</string>
+    <string name="custom_dialog_reset">重新启动Z9</string>
+    <string name="custom_dialog_reset_now">立即重启</string>
+    <string name="custom_dialog_reset_manual">手动重启</string>
+    <string name="custom_dialog_heart_setting">心跳频率设置</string>
+    
+    <string name="password_dialog_newpsd_null">新密码不能为空!</string>
+    <string name="password_dialog_psd_imparity">两次输入密码不一致</string>
+    <string name="password_dialog_psd_len">请输入6-16位英文、数字组合</string>
+    <string name="password_dialog_oldpsd_null">原始密码不能为空!</string>
+    <string name="password_dialog_oldnew_imparity">新密码不能与原始密码相同!</string>
+    <string name="password_dialog_oldpsd_error">原始密码错误,请重新输入</string>
+    
+    <string name="popup_dialog_guard_alarm">请注意检查防盗器所在位置，以及进行必要的监听、响铃工作!</string>
+    <string name="popup_dialog_know">知道了</string>
+    <string name="popup_dialog_guard">防盗器报警</string>
+    
+    <string name="popup_dialog_geofence">防盗器范围已超出电子围栏范围，请及时处理!</string>
+    <string name="popup_dialog_geofence_alarm">电子围栏报警</string>
+    
+    <string name="popup_dialog_offline">客户端与防盗器失去连接,请重新检测两端的网络连接并重试</string>
+    <string name="popup_dialog_offline_alarm">断开连接</string>
+    
+    <string name="popup_dialog_z9">Z9防盗器</string>
+    <string name="popup_dialog_into_app">点击进入应用</string>
+    
+    <string name="update_element_renewable">可更新</string>
+    <string name="update_element_update">更新</string>
+    <string name="update_element_newest">最新</string>
+    <string name="update_element_continue">继续</string>
+    <string name="update_element_start">开始</string>
+    
+    <string name="add_device_layout_adddevice">添加设备</string>
+    <string name="add_device_layout_nick">昵称</string>
+    <string name="add_device_layout_imei">IMEI:</string>
+    <string name="add_device_layout_password">密码:</string>
+    
+    <string name="geofence_layout_radius">半径100米</string>
+    
+    <string name="history_layout_today">今天</string>
+    <string name="history_layout_yesterday">昨天</string>
+    <string name="history_layout_custom">自定义</string>
+    <string name="history_layout_gpsdata">GPS数据</string>
+    <string name="history_layout_lbsdata">LBS数据</string>
+    <string name="history_layout_select">查询</string>
+    
+    <string name="main_layout_standby">省电待机</string>
+    
+    <string name="string_radius">半径</string>
+    <string name="string_metre">米</string>
+    <string name="string_kilometre">-kilometer</string>
+    
+    <string-array name="sensitivity">
+        <item>高灵敏度</item>
+        <item>中灵敏度</item>
+        <item>低灵敏度</item>
+    </string-array>
+      
+    <string-array name="voicearray">
+        <item>报警铃声</item>
+        <item>宝宝,要回家了</item>
+        <item>宝宝,要起床了</item>
+        <item>宝宝,在哪儿呀?</item>
+        <item>爸,要回家了</item>
+        <item>妈,要回家了</item>
+    </string-array>
+    
+    <string name="setting_layout_family_one">亲情号码1设置</string>
+    <string name="setting_layout_family_two">亲情号码2设置</string>
+    <string name="setting_layout_mtk_phone">设置防盗器号码</string>
+    <string name="setting_layout_client_phone">设置本机号码</string>
+    <string name="setting_layout_heartbeat_frequency">心跳频率设置</string>
+    <string name="setting_layout_change_password">修改密码</string>
+    <string name="setting_layout_Logout">注销登陆</string>
+    <string name="setting_layout_remote_shutdown">远程关机</string>
+    <string name="moredevice_layout_connect_device">连接设备</string>
+    <string name="moredevice_layout_add_device">添加设备</string>
+    
+    <string name="offlinemap_layout_down_city">已下载城市</string>
+    <string name="offlinemap_layout_delete">删除</string>
+    <string name="offlinemap_layout_start">开始</string>
+    
+    <string name="offlinemap_layout_city_list">城市列表</string>
+    <string name="offlinemap_layout_down_manage">下载管理</string>
+</resources>

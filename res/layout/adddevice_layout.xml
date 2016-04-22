@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="20.0dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_bombbox"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/text_18_ffffff"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:gravity="center"
+            android:text="@string/add_device_layout_adddevice"
+            android:visibility="visible" />
+
+
+        <RelativeLayout
+            android:id="@+id/content4"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/text_16_666666"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_device_layout_nick"
+                android:layout_centerVertical="true" />
+
+            <EditText
+                android:id="@+id/NickNameEdit"
+                android:layout_width="180dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dip"
+                android:gravity="left">
+                <requestFocus />
+            </EditText>
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/content3"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/text_16_666666"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_device_layout_imei"
+                android:layout_centerVertical="true" />
+
+            <EditText
+                android:id="@+id/ImeiEdit"
+                android:layout_width="180dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dip"
+                android:gravity="left">
+                <requestFocus />
+            </EditText>
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/content4"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/text_16_666666"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_device_layout_password"
+                android:layout_centerVertical="true" />
+
+            <EditText
+                android:id="@+id/PasswordEdit"
+                android:layout_width="180dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dip"
+                android:gravity="left"
+                android:inputType="textPassword"
+                android:digits="0123456789abcdefghijklmnopqrstuvwxyz">
+                <requestFocus />
+            </EditText>
+        </RelativeLayout>
+        
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ffd0d0d0" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip"
+            android:layout_gravity="bottom"
+            android:background="@drawable/dialog_bottom_bg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/OkButton"
+                style="@style/text_15_ffffff_sdw"
+                android:layout_width="114.0dip"
+                android:layout_height="40.0dip"
+                android:background="@drawable/btn_ok_selector"
+                android:gravity="center"
+                android:text="@string/dialog_phone_ok" />
+
+            <Button
+                android:id="@+id/CancelButton"
+                style="@style/text_15_666666_sdw"
+                android:layout_width="114.0dip"
+                android:layout_height="40.0dip"
+                android:layout_marginLeft="20.0dip"
+                android:background="@drawable/btn_cancel_selector"
+                android:gravity="center"
+                android:text="@string/dialog_phone_cancel" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

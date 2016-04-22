@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/ContentOne"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/VoiceOptionSpinner"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:spinnerMode="dialog"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/VoiceOptionBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/VoiceOptionSpinner"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8.0dip"
+            android:background="@drawable/login_button"
+            android:text="@string/voice_activity_button" />
+        <!--
+        <com.guanjiangjun2.util.SwitchButton
+            android:id="@+id/VoiceActionSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@id/VoiceOptionSpinner"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            switch:textOff="开启"
+            switch:textOn="关闭" />
+        -->
+    </RelativeLayout>
+	
+</RelativeLayout>

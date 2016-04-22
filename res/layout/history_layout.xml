@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffececec"
+    android:orientation="vertical"
+    android:padding="0.0dip" >
+
+    <RelativeLayout
+        android:id="@+id/RadioGroupRelative"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip" >
+
+        <RadioGroup
+            android:id="@+id/DateTimeRadioGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/TadayCheckRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:text="@string/history_layout_today" />
+
+            <RadioButton
+                android:id="@+id/YesterdayCheckRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:text="@string/history_layout_yesterday" />
+
+            <RadioButton
+                android:id="@+id/MoreCheckRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:text="@string/history_layout_custom" />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/DateTimeChooseRelative"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RadioGroupRelative"
+        android:layout_marginTop="10dip" >
+
+        <RelativeLayout
+            android:id="@+id/StartDateRelative"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip" >
+
+            <EditText
+                android:id="@+id/StartDateText"
+                android:layout_width="160dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dip"
+                android:background="@drawable/selector_viewgroup_bg"
+                android:editable="false"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/StartTimeText"
+                android:layout_width="80dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dip"
+                android:background="@drawable/selector_viewgroup_bg"
+                android:editable="false"
+                android:gravity="center"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/EndDateRelative"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/StartDateRelative"
+            android:layout_marginTop="10dip" >
+
+            <EditText
+                android:id="@+id/EndDateText"
+                android:layout_width="160dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dip"
+                android:background="@drawable/selector_viewgroup_bg"
+                android:editable="false"
+                android:gravity="center" />
+
+            <EditText
+                android:id="@+id/EndTimeText"
+                android:layout_width="80dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dip"
+                android:background="@drawable/selector_viewgroup_bg"
+                android:editable="false"
+                android:gravity="center"/>
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/ModeRelative"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/EndDateRelative"
+            android:layout_marginTop="10dip" >
+        
+           <RadioGroup
+            android:id="@+id/DataModeRadioGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/GpsCheckRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:text="@string/history_layout_gpsdata" />
+
+            <RadioButton
+                android:id="@+id/LbsCheckRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:text="@string/history_layout_lbsdata" />
+
+
+        </RadioGroup>
+        </RelativeLayout>
+        <Button
+            android:id="@+id/SelectBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ModeRelative"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8.0dip"
+            android:background="@drawable/login_button"
+            android:text="@string/history_layout_select" />
+    </RelativeLayout>
+</RelativeLayout>

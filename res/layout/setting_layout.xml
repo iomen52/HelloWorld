@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/ContentPhoneOne"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:background="@drawable/selector_viewgroup_bg"
+            android:clickable="true" >
+
+            <ImageView
+                android:id="@+id/GPSLoctionImage"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dip"
+                android:clickable="false"
+                android:focusable="false"
+                android:src="@drawable/ic_family_number_01" />
+
+            <TextView
+                android:id="@+id/GPSLoctionView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50dip"
+                android:clickable="false"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/setting_layout_family_one"
+                android:textSize="18.0sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ffd0d0d0" />
+
+        <RelativeLayout
+            android:id="@+id/ContentPhoneTwo"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:background="@drawable/selector_viewgroup_bg"
+            android:clickable="true" >
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dip"
+                android:clickable="false"
+                android:focusable="false"
+                android:src="@drawable/ic_family_number_02" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50dip"
+                android:clickable="false"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/setting_layout_family_two"
+                android:textSize="18.0sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ffd0d0d0" />
+        
+        <RelativeLayout
+            android:id="@+id/ContentSetMtkPhone"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:background="@drawable/selector_viewgroup_bg"
+            android:clickable="true" >
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dip"
+                android:clickable="false"
+                android:focusable="false"
+                android:src="@drawable/ic_mtk_number" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50dip"
+                android:clickable="false"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/setting_layout_mtk_phone"
+                android:textSize="18.0sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ffd0d0d0" />
+        
+        <RelativeLayout
+            android:id="@+id/ContentSetAndroidPhone"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:background="@drawable/selector_viewgroup_bg"
+            android:clickable="true" >
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dip"
+                android:clickable="false"
+                android:focusable="false"
+                android:src="@drawable/ic_own_number" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50dip"
+                android:clickable="false"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/setting_layout_client_phone"
+                android:textSize="18.0sp" />
+        </RelativeLayout>
+        
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ffd0d0d0" />
+        
+        <RelativeLayout
+            android:id="@+id/HeartQuantityRelative"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:background="@drawable/selector_viewgroup_bg"
+            android:clickable="true" >
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dip"
+                android:clickable="false"
+                android:focusable="false"
+                android:src="@drawable/ic_heart_hz" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50dip"
+                android:clickable="false"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/setting_layout_heartbeat_frequency"
+                android:textSize="18.0sp" />
+        </RelativeLayout>
+        
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ffd0d0d0" />
+
+        <RelativeLayout
+            android:id="@+id/ContentPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:background="@drawable/selector_viewgroup_bg"
+            android:clickable="true" >
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dip"
+                android:clickable="false"
+                android:focusable="false"
+                android:src="@drawable/ic_change_password" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50dip"
+                android:clickable="false"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/setting_layout_change_password"
+                android:textSize="18.0sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ffd0d0d0" />
+        
+         <RelativeLayout
+            android:id="@+id/ContentMobileBrand"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:background="@drawable/selector_viewgroup_bg"
+            android:clickable="true" >
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dip"
+                android:clickable="false"
+                android:focusable="false"
+                android:src="@drawable/ic_mobile_brand" />
+
+            <TextView
+                android:id="@+id/MobileBrandTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50dip"
+                android:clickable="false"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:textSize="18.0sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ffd0d0d0" />
+        
+        <RelativeLayout
+            android:id="@+id/ContentCancel"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:background="@drawable/selector_viewgroup_bg"
+            android:clickable="true" >
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dip"
+                android:clickable="false"
+                android:focusable="false"
+                android:src="@drawable/ic_cancel_login" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50dip"
+                android:clickable="false"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/setting_layout_Logout"
+                android:textSize="18.0sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ffd0d0d0" />
+
+        <RelativeLayout
+            android:id="@+id/ContentOffPower"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:background="@drawable/selector_viewgroup_bg"
+            android:clickable="true" >
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dip"
+                android:clickable="false"
+                android:focusable="false"
+                android:src="@drawable/ic_remote_shutdown" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50dip"
+                android:clickable="false"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="@string/setting_layout_remote_shutdown"
+                android:textSize="18.0sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ffd0d0d0" />
+    </LinearLayout>
+
+</RelativeLayout>
